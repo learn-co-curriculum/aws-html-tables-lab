@@ -27,6 +27,9 @@ Fork and clone this lesson into your local environment. Navigate into its
 directory in the terminal, then run `code .` to open the files in Visual Studio
 Code.
 
+Install all the dependencies with `npm install` to ensure you can test your work as you go with `npm test`.
+
+
 ## Recognize Basic HTML Table Elements
 
 ### The Table Tag: `<table>`
@@ -136,12 +139,12 @@ entire table would look like the following:
     <td>Guacamole</td>
   </tr>
   <tr>
-    <td>Rachel</td>
+    <td>Haru</td>
     <td>718-555-1212</td>
     <td>Chips</td>
   </tr>
   <tr>
-    <td>Terrance</td>
+    <td>Manuel</td>
     <td>914-555-1212</td>
     <td>Salsa</td>
   </tr>
@@ -155,8 +158,8 @@ expands to fit the width of the content. It should look something like this:
 | Name     | Phone Number | Bringing  |
 | -------- | ------------ | --------- |
 | Daniel   | 718-555-1212 | Guacamole |
-| Rachel   | 718-555-1212 | Chips     |
-| Terrance | 914-555-1212 | Salsa     |
+| Haru   | 718-555-1212 | Chips     |
+| Manuel | 914-555-1212 | Salsa     |
 
 ## Create HTML Tables
 
@@ -176,7 +179,7 @@ To complete this task, follow the order of table creation we discussed earlier:
 3. Add in the data in the appropriate order so that each city name falls under
    the "City" column, each state is under "State", etc...
 
-Run `learn test` to test your work and see your progress. The tests also include
+Run `npm test` to test your work and see your progress. The tests also include
 the exact population numbers, so feel free to copy them from the errors!
 
 ## Conclusion
